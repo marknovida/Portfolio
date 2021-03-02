@@ -4,3 +4,13 @@
     width: 100%;
     height: 100%;
   }
+  @media (max-width: 576px) { 
+    .brand-logo{
+      width: 5em;
+      height: 1em;
+      margin-top: .5em;
+    }
+   }
+   .brand-logo{
+     margin-top: .5em;
+   }
