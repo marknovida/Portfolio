@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $('.modal').modal();
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({
+      draggable:'true'
+    });
     $('.carousel').carousel();
   });

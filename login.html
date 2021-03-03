@@ -72,29 +72,42 @@
              
             <div class="col s12 m12 l6 grey lighten-2" style="border-radius: 5%;">
                 <div class="container">
-                    <h5>Log In Account</h5>
-                    <div class="input-field">      
-                        <i class="material-icons prefix" >account_circle</i>
-                        <input id="username" type="text" class="validate dark-text">
-                        <label for="username" class="dark-text">Name</label>
-                    </div>
-                    <div class="input-field">      
-                        <i class="material-icons prefix" >lock</i>
-                        <input id="password" type="password" class="validate dark-text">
-                        <label for="password" class="dark-text">Password</label>
-                    </div>
-                    <a class="waves-effect waves-light btn blue right  ">Log In</a>
-                    <label>
-                        <input type="checkbox" />
-                        <span>Remember Me?</span>
-                    </label>
-                    <br><br>
-                    <hr>
-                    <h6 class="center">Continue using </h6>
-                    <a href="" style="width:100%" class="waves-effect waves-light btn blue"><i class="fab fa-facebook"></i>&nbsp; Continue with Facebook</a>
-                    <br> <br>
-                    <a href="" style="width:100%" class="waves-effect waves-light btn grey lighten-3 text-grey darken-4"><i style="margin-left:-.2em" class="fab fa-google"></i>&nbsp; Continue with Google</a>
-                    <br><br>
+                    <form action="index.html" class="input-field">
+                        <h5>Log In Account</h5>
+                        <div class="input-field">      
+                            <i class="material-icons prefix" >account_circle</i>
+                            <input id="username" type="text" class="validate">
+                            <label for="username" class="dark-text">Name</label>
+                        </div>
+                        <div class="input-field">      
+                            <i class="material-icons prefix" >lock</i>
+                            <input id="password" type="password" class="validate">
+                            <label for="password" class="dark-text">Password</label>
+                            <a href="" style="font-size: .8em;">Forgot Password?</a>
+                        </div>
+                        <div class="input-field">
+                            <label style="margin-top:-.5em">
+                                <input  type="checkbox">
+                                <span>Remember Me?</span>
+                            </label>
+                            <button class="waves-effect waves-light btn blue right" type="submit"><b>Log In</b></button>
+                        </div>
+                        <br><br>
+                        <hr>
+                        <h6 class="center">Continue using </h6>
+                        <a href="" style="width:100%" class="waves-effect waves-light btn blue"><i class="fab fa-facebook"></i>&nbsp; Continue with Facebook</a>
+                        <br> <br>
+                        <a href="" style="width:100%" class="waves-effect waves-light btn grey lighten-3 text-grey darken-4"><i style="margin-left:-.2em" class="fab fa-google"></i>&nbsp; Continue with Google</a>
+                        <br>   
+                        <div class="input-field row">
+                            <div class="col s6 m8">
+                                <span style="font-size:.8em">Don't have an account?</span>
+                            </div>
+                            <div class="col s6 m4">
+                            <a style="margin-top:-.4em" class="waves-effect waves-light btn blue right" href="register.html">Register</a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         <!-- End of row -->
